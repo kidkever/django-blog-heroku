@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-bmd(iz_7!u!yn%5d(-kscb(p^!_gp#m%2xg3o&vmg5&3jv!1)b'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['https://mazen-django-blog.herokuapp.com/',
                  'localhost', '127.0.0.1']
